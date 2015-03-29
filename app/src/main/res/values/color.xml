@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="range_bar_background">#A59DFF</color>
+        <color name="range_bar_active">#3A0079</color>
+        <color name="head_color">#0A0079</color>
+        <color name="pressed">#0F00C6</color>
+        <color name="activity_background">#ff6b5fff</color>
+        <color name="menu_text_color">#fff</color>
+        <color name="activity_text_color">#b3ffffff</color>
+    </resources>

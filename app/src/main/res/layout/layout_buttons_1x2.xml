@@ -1,0 +1,44 @@
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins"
+        android:nestedScrollingEnabled="false"
+        android:layout_gravity="fill">
+
+        <Button
+            android:layout_width="@dimen/widget_button_width"
+            android:layout_height="@dimen/widget_button_height"
+            android:text="@string/empty"
+            android:id="@+id/button1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_col_widget"
+            android:textColor="@color/activity_text_color"
+            android:textSize="@dimen/widget_button_text_size"
+            android:layout_margin="5dp"
+            android:layout_gravity="top" />
+
+        <Button
+            android:layout_width="@dimen/widget_button_width"
+            android:layout_height="@dimen/widget_button_height"
+            android:text="@string/empty"
+            android:id="@+id/button2"
+            android:layout_above="@+id/button3"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_toEndOf="@+id/button1"
+            android:background="@drawable/button_col_widget"
+            android:textColor="@color/activity_text_color"
+            android:textSize="@dimen/widget_button_text_size"
+            android:layout_margin="5dp"
+            android:layout_gravity="top" />
+
+    </GridLayout>
+

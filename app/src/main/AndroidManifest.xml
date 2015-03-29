@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ej.quicksamples" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.ej.quicksamples.BaseApp"
+
+        >
+        <activity
+            android:name="com.ej.quicksamples.main.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.ej.quicksamples.explorer.ExplorerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.ej.quicksamples.player.PlayerActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <receiver android:name="com.ej.quicksamples.widget.WidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_resource" />
+        </receiver>
+
+        <receiver
+            android:name="com.ej.quicksamples.widget.WidgetReceiver"
+            android:label="widgetBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.ej.intent.action.ACTION_PLAY1" />
+                <action android:name="com.ej.intent.action.ACTION_PLAY2" />
+                <action android:name="com.ej.intent.action.ACTION_PLAY3" />
+                <action android:name="com.ej.intent.action.ACTION_PLAY4" />
+                <action android:name="com.ej.intent.action.ACTION_PLAY5" />
+                <action android:name="com.ej.intent.action.ACTION_PLAY6" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_resource" />
+        </receiver>
+
+    </application>
+
+</manifest>

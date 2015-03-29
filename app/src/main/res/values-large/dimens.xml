@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">120dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_padding">20dp</dimen>
+    <dimen name="player_button_padding">12dp</dimen>
+    <dimen name="description_text_size">14sp</dimen>
+    <dimen name="input_text_size">18sp</dimen>
+    <dimen name="bottom_bar_margin">42dp</dimen>
+    <dimen name="top_bar_margin">20dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+    <dimen name="button_radius">26dp</dimen>
+    <dimen name="widget_dimension_width">250dp</dimen>
+    <dimen name="widget_dimension_height">250dp</dimen>
+</resources>

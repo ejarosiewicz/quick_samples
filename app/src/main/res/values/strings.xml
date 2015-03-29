@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quick Samples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="saveSuccess">Save success</string>
+    <string name="saveError">Save error</string>
+    <!--Errors-->
+    <string name="durationError">Duration Error</string>
+    <string name="fileMissingError">File not found. Take another.</string>
+    <string name="minError">Min greater than max</string>
+    <string name="maxError">Max less than min</string>
+    <string name="emptyNameError">Empty Name Error</string>
+    <string name="soundRange">Sound range:</string>
+    <string name="soundName">Sound name:</string>
+    <string name="startPosition">Start position:</string>
+    <string name="endPosition">End Position:</string>
+    <string name="selectSound">Select sound below:</string>
+    <string name="selectNumber">Select number of buttons:</string>
+    <string name="buttonNumber">Button number </string>
+    <string name="empty">EMPTY</string>
+    <string name="numberOfButtons">Number of buttons</string>
+    <string name="takeAnother">Take another</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectButton">Select button for configuration:</string>
+
+
+</resources>
