@@ -13,7 +13,7 @@ So what we gonna do to use this app?
 2. Launch the "Quick Samples" app.
 3. Select Your button for definition.
 5. Search in explorer Your sound file. It supports MP3,WAV,OGG, and MIDI files.
-6.Set the name of Your sample button. 
+6. Set the name of Your sample button. 
 7. Yo can also set the range of the playing sound - by setting the range bar, or setting values on Start Position, and End Position lables.
 8. Click the "Save" button.
 9. You can repeat 3-8 points for another buttons, or edit already setted.
