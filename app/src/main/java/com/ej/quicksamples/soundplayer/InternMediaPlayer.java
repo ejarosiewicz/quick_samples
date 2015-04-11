@@ -208,7 +208,7 @@ public class InternMediaPlayer implements Player {
     private void initObservable() {
         Log.d("OBSERVABLE","INIT");
         Observable
-                .interval(10, TimeUnit.MILLISECONDS)
+                .interval(100, TimeUnit.MILLISECONDS)
                 .takeWhile(new Func1<Long, Boolean>() {
                     @Override
                     public Boolean call(Long aLong) {
@@ -271,7 +271,8 @@ public class InternMediaPlayer implements Player {
 
             @Override
             public void onNext(Long aLong) {
-                if (aLong % 20 == 0 && playerListener!=null) {
+                if (/*aLong % 20 == 0 &&*/ playerListener!=null) {
+                    Log.d("TIME",Long.toString(aLong));
                     int time = mediaPlayer.getCurrentPosition();
                     playerListener.onReadPosition(time);
                 }
